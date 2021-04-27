@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Plastic & Packaging</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style_responsive.css">
+
+  <!-- lightslider css -->
+  <link rel="stylesheet" href="css/lightgallery.css">
+
+  <!-- Owl Stylesheets -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+
+  <script type="text/javascript">
+    function hideLoader() {
+      $('#loading').hide();
+    }
+
+    $(window).ready(hideLoader);
+
+    // Strongly recommended: Hide loader after 20 seconds, even if the page hasn't finished loading
+    setTimeout(hideLoader, 20 * 1000);
+  </script>
+
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.js"></script>
+  <script src="js/lightgallery-all.min.js"></script>
+  <script src="js/picturefill.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('#lightgallery').lightGallery();
+    });
+  </script>
+
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+  <div id="loading"></div>
+
+  <header>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+          <a class="brandName" href="">Shree Jagdish Plastic <span>Quality Matters</span></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#aboutUs">About Us</a>
+            </li>
+            <li>
+              <a href="#products">Products</a>
+            </li>
+            <li>
+              <a href="#packaginPortfolio">Portfolio</a>
+            </li>
+            <li>
+              <a href="#innovations">Innovations</a>
+            </li>
+            <li>
+              <a href="#contactus">Contact Us</a>
+            </li>
+          </ul>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <!--======================================================================
+============================== Hero Banner ===============================
+=======================================================================-->
+
+  <section id="home" class="heroBanner">
+    <div class="bannerContainer">
+      <ul class="owl-carousel owl-theme">
+        <li class="item slide1"></li>
+        <li class="item slide2"></li>
+      </ul>
+      <div class="clearfix"></div>
+
+      <script>
+        $(document).ready(function () {
+          $('.owl-carousel').owlCarousel({
+            loop: true,
+            items: 1,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            rewind: true,
+            animateOut: 'fadeOut',
+            responsiveClass: true,
+          })
+        })
+      </script>
+    </div>
+
+    <!-- bannerContainer ends -->
+    <div class="jumbotron text-center">
+      
+      <script src="js/textyleF.min.js"></script>
+      <script>
+        $(window).on('load',function(){
+          $('.ex1').textyleF();
+          $('.ex2').textyleF({
+            duration : 600,
+            delay : 80,
+            easing : 'ease-in-out',
+            callback : function(){
+              $(this).css({
+              color : '#fff',
+              transition : '.2s',
+              });
+              $('.desc').css('opacity',1);
+            }
+          });
+        });
+      </script>
+
+      <h1 class="ex2">Plastic & Packaging</h1>
+      <p>We have developed a lot of new and exciting IML & Non-IML innovations in close cooperation with our customers.</p>
+    </div>
+    <!-- BannerText ends -->
+
+  </section>
+  <!-- heroBanner -->
+
+  <section id="aboutUs" class="aboutUs slideanim">
+    <section class="container">
+      <h2>
+        <strong>About </strong>Us
+      </h2>
+  		
+      <div class="col-sm-6 aboutUsImage text-center">
+        	<span><img src="images/about_us.png"> </span>
+     	</div>
+      	<!-- aboutUsImage ends -->
+
+      <div class="col-sm-6 aboutUsInfo">
+		<ul>
+          <li>Founded in 1991, JAGDISH PLASTIC INDUSTRIES – Bhavnagar, Gujarat. as manufactures of plastic NIWAR, ROPES & granules - spread across 2000 Sq. yard with 7000 Sq. feet construction area.
+          </li>
+          <li>Company succeeded year on year we reach at level when we did transform our self with modern technology & advanced system that is, we came into another industry which is plastic container & packaging industry as SHREE JAGDISH PLASTIC – Ahmedabad, India from 2017.</li>
+          <li>In plastic & packaging industry came with very advanced & latest technology which is IML (In Mould Labeling) technology.</li>
+          <li>Currently, we are dealing in wide range PP Container & IML Container, HD blow products with or without IML, & also into PET Product with or without IML.</li>
+        </ul>
+      </div>
+      <!-- aboutUsInfo ends -->
+
+      <div class="clearfix"></div>
+    </section>
+    <!-- container ends -->
+  </section>
+  <!-- aboutUs ends -->
+
+
+  <!--======================================================================
+============================== Products ==================================
+=======================================================================-->
+
+  <section id="products" class="text-center products slideanim">
+    <section class="container">
+      <div class="sectionTitle">
+        <h2>Our
+          <strong>Products</strong>
+        </h2>
+        <p>Our products are manufactured with best-in-class materials, and assembled using the finest and most advanced techniques
+          on the market.</p>
+      </div>
+      <!-- productsTitle ends -->
+
+      <div class="productsListing">
+        <div class="col col-sm-4 thumbs">
+          	<div class="productImg">
+          	    <span><img src="images/product_1.png"></span> 
+	      		    <h3>Dairy Products containers <label>World Class Standards</label> </h3>
+	       </div>	<!-- productImg  ends-->
+        	<p>As our company’s pride and joy, our Containers is our #1 best-selling product. And it’s not hard to see why - made
+            from the strongest materials on the market, they are durable and last for decades. And with one of the lowest
+            prices in the industry, we’ve captured the hearts and minds of our customers.</p>
+        </div>  <!-- thumbs ends -->
+
+        <div class="col col-sm-4 thumbs">
+        	<div class="productImg">
+            	  <span><img src="images/product_2.png"></span> 
+	      		    <h3>Food Products Containers <label>Top Quality</label> </h3>
+	       	</div>	<!-- productImg  ends-->
+          	
+          <p>Select our Food containers and rest assured that you’ve made the right choice for your business. Together with
+            top engineers and technicians, we strive to product quality containers that meet the industry’s rigorous standards.
+            With quality and consistency always on our mind, we craft each one carefully and precisely.</p>
+        </div>
+        <!-- thumbs ends -->
+
+        <div class="col col-sm-4 thumbs">
+          <div class="productImg">
+                <span><img src="images/product_3.png"></span> 
+                <h3>Customized Products Containers <label>Custom-made</label> </h3>
+          </div>  <!-- productImg  ends-->
+          <p>Our Customized has been used by the biggest brands for years - now you can follow their lead. Developed by our
+            team of talented designers and engineers, this product is truly one-of-a-kind. With a variety of sizes, colors
+            and patterns, you won’t be disappointed. And with our 100% guarantee, we’re confident that you’re making the
+            right choice.</p>
+        </div> <!-- thumbs ends -->
+
+        <div class="clearfix"></div>
+      </div>
+      <!-- productsListing ends -->
+    </section>
+    <!-- container ends -->
+  </section>
+  <!-- products ends -->
+
+
+
+  <!--======================================================================
+========================= Packaging Portfolio ============================
+=======================================================================-->
+
+  <section id="packaginPortfolio" class="packaginPortfolio">
+    <span class="bgIcons"> </span>
+    <section class="container">
+      <div class="sectionTitle">
+        <h2>Packaging
+          <strong>Portfolio</strong>
+        </h2>
+      </div> <!-- sectionTitle ends -->
+      
+      <div class="portfolioContainer">
+
+        <ul id="lightgallery" class="list-unstyled row thumbsContainer">
+          <li class="thumbnail col-xs-6 col-sm-4 col-md-3 gallery1" data-src="images/gallery1_large.png">
+            <a href="" class="imgContainer">
+              <img class="img-responsive" src="images/gallery1.jpg" />
+            </a>
+            <span class="overlay">
+              <i class="fa fa-search"></i>
+            </span>
+          </li>
+
+          <li class="thumbnail col-xs-6 col-sm-4 col-md-3 gallery1" data-src="images/gallery2_large.png">
+            <a href="" class="imgContainer">
+              <img class="img-responsive" src="images/gallery2.jpg" />
+            </a>
+            <span class="overlay">
+              <i class="fa fa-search"></i>
+            </span>
+          </li>
+
+          <li class="thumbnail col-xs-6 col-sm-4 col-md-3 gallery1" data-src="images/gallery3_large.png">
+            <a href="" class="imgContainer">
+              <img class="img-responsive" src="images/gallery3.jpg" />
+            </a>
+            <span class="overlay">
+              <i class="fa fa-search"></i>
+            </span>
+          </li>
+
+          <li class="thumbnail col-xs-6 col-sm-4 col-md-3 gallery1" data-src="images/gallery4_large.png">
+            <a href="" class="imgContainer">
+              <img class="img-responsive" src="images/gallery4.jpg" />
+            </a>
+            <span class="overlay">
+              <i class="fa fa-search"></i>
+            </span>
+          </li>
+
+          <li class="thumbnail col-xs-6 col-sm-4 col-md-3 gallery1" data-src="images/gallery5_large.png">
+            <a href="" class="imgContainer">
+              <img class="img-responsive" src="images/gallery5.jpg" />
+            </a>
+            <span class="overlay">
+              <i class="fa fa-search"></i>
+            </span>
+          </li>
+
+          <li class="thumbnail col-xs-6 col-sm-4 col-md-3 gallery1" data-src="images/gallery6_large.jpg">
+            <a href="" class="imgContainer">
+              <img class="img-responsive" src="images/gallery6.jpg" />
+            </a>
+            <span class="overlay">
+              <i class="fa fa-search"></i>
+            </span>
+          </li>
+
+          <li class="thumbnail col-xs-6 col-sm-4 col-md-3 gallery1" data-src="images/gallery7_large.jpg">
+            <a href="" class="imgContainer">
+              <img class="img-responsive" src="images/gallery7.jpg" />
+            </a>
+            <span class="overlay">
+              <i class="fa fa-search"></i>
+            </span>
+          </li>
+
+          <li class="thumbnail col-xs-6 col-sm-4 col-md-3 gallery1" data-src="images/gallery8_large.jpg">
+            <a href="" class="imgContainer">
+              <img class="img-responsive" src="images/gallery8.jpg" />
+            </a>
+            <span class="overlay">
+              <i class="fa fa-search"></i>
+            </span>
+          </li>
+
+          <li class="thumbnail col-xs-6 col-sm-4 col-md-3 gallery1" data-src="images/gallery9_large.png">
+            <a href="" class="imgContainer">
+              <img class="img-responsive" src="images/gallery9.png" />
+            </a>
+            <span class="overlay">
+              <i class="fa fa-search"></i>
+            </span>
+          </li>
+
+          <li class="thumbnail col-xs-6 col-sm-4 col-md-3 gallery1" data-src="images/gallery10_large.png">
+            <a href="" class="imgContainer">
+              <img class="img-responsive" src="images/gallery10.png" />
+            </a>
+            <span class="overlay">
+              <i class="fa fa-search"></i>
+            </span>
+          </li>
+
+          <li class="thumbnail col-xs-6 col-sm-4 col-md-3 gallery1" data-src="images/gallery11_large.png">
+            <a href="" class="imgContainer">
+              <img class="img-responsive" src="images/gallery11.png" />
+            </a>
+            <span class="overlay">
+              <i class="fa fa-search"></i>
+            </span>
+          </li>
+
+        </ul>
+      </div>
+      <!-- portfolioContainer ends -->
+    </section>
+    <!-- container ends -->
+  </section>
+  <!-- packaginPortfolio ends -->
+
+
+
+  <!--======================================================================
+===========================  innovations  ================================
+=======================================================================-->
+
+  <section id="innovations" class="innovations slideanim">
+    <section class="container">
+       <div class="sectionTitle">
+        <h2>Exciting <strong>Innovations</strong>
+        </h2>
+      </div> <!-- sectionTitle ends --> 
+
+      <div class="col col-sm-6 innovationImg">
+        <span>
+          <img src="images/innovations.png"> </span>
+      </div>
+
+      <div class="col col-sm-6 innovationInfo">
+        <h2>We have developed a lot of new and exciting IML and Non-IML innovations in close cooperation with our customers..
+        </h2>
+        <p>IML (In‐mold labeling) is a one‐step decorating/manufacturing process for labeling a plastic container while it is in its mold. It results in a full labeled part directly from the tool. The Graphic qualities are superior compared
+          to traditional post‐decorating methods since photos, illustrations, and 3‐D images can be molded directly into
+          the package part.</p>
+        <p>Molding the labels around a plastic part provides a smooth seamless surface on the final product. IML labels use
+          a heat activated bond that secures the label to the container side wall permanently, eliminating the peeling, curling
+          and blistering that can occur post‐decorating labels. The In-mold labeling process also accommodates three to five‐sided
+          shapes for a greater variety of design options.</p>
+      </div>
+    </section>
+    <!-- container edns -->
+  </section>
+  <!-- innovations ends -->
+
+
+  <!--======================================================================
+============================  Approval  ==================================
+=======================================================================-->
+
+  <section class="approval">
+    <section class="container">
+      <div class="approvalContainer">
+        <div class="col col-sm-10">
+          <label>We are proud to put
+            <strong>our stamp of approval</strong> on every one of our goods, and are sure that you will be satisfied with the results.</label>
+        </div>
+        <div class="col col-sm-2 approvalImg text-center">
+          <img src="images/approved.png"> </div>
+        <div class="clearfix"></div>
+      </div>
+      <!-- approvalContainer ends -->
+    </section>
+    <!-- container ends -->
+  </section>
+  <!-- approval ends -->
+
+
+
+  <!--======================================================================
+=============================  Footer ====================================
+=======================================================================-->
+
+  <footer id="contactus">
+    <span class="bgIcons"> </span>
+    <section class="container">
+      <section class="col col-sm-4 getInTouchInfo">
+        <div class="getInTouch">
+          <h2>
+            <strong>Get in</strong> touch</h2>
+          <ul>
+            <li class="email">
+              <span>Email: </span>
+              <a href="mailto: n.suchak7391@gmail.com">info@shreejagdishplastic.com</a>
+            </li>
+            <li class="mobile">
+              <span>Mobile: </span>
+              <a href="tel: +91 9879196365">+91 98791 96365</a>
+            </li>
+            <li class="whtsapp">
+              <span>Website: </span>
+              <a href="shreejagdishplastic.com">www.shreejagdishplastic.com</a>
+            </li>
+          </ul>
+        </div>
+        <!-- getInTouch ends -->
+
+        <div class="followUs">
+          <h2>
+            <strong>Follow</strong> us on</h2>
+          <div class="socialMedia">
+            <a href="https://www.facebook.com/SHREE-JAGDISH-PLASTIC-255709824923900/" class="facebook"></a>
+            <a href="https://www.facebook.com/SHREE-JAGDISH-PLASTIC-255709824923900/" class="insta"></a>
+            <a href="https://www.linkedin.com/mwlite/in/nik-suchak-15714b78" class="linkedIn"></a>
+          </div>
+          <!-- socialMedia ends -->
+        </div>
+      </section>
+      <!-- getInTouch edns -->
+
+      <section class="col col-sm-3 manufacturingSite">
+        <h2>
+          <strong>Manufacturing </strong>Site</h2>
+        <ul>
+          <li>
+            <p>B31 Sumel Business Park 7, Rakhial
+              <br> Ahmedabad-380023,
+              <br> Gujarat - India.</p>
+          </li>
+        </ul>
+      </section>
+      <!-- getInTouch edns -->
+
+      <section class="col col-sm-5 map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.079787439827!2d72.63547741427038!3d23.020842484953924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e86606263e9a1%3A0x5385db8bc943f586!2sSumel+-+7!5e0!3m2!1sen!2sin!4v1551551039868"
+          frameborder="0" style="border:0" allowfullscreen></iframe>
+      </section>
+
+    </section>
+    <!-- container edns -->
+
+    <div class="copyright">
+      <label> &copy; 1991 SHREE Jagdish Plastic</label>
+    </div>
+  </footer>
+
+  <script>
+      $(document).ready(function(){
+        // Add smooth scrolling to all links in navbar + footer link
+        $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+      
+            // Store hash
+            var hash = this.hash;
+      
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 900, function(){
+         
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+        
+        $(window).scroll(function() {
+          $(".slideanim").each(function(){
+            var pos = $(this).offset().top;
+      
+            var winTop = $(window).scrollTop();
+              if (pos < winTop + 350) {
+                $(this).addClass("slide");
+              }
+          });
+
+          $(".thumbsContainer").each(function(){
+            var pos = $(this).offset().top;
+      
+            var winTop = $(window).scrollTop();
+              if (pos < winTop + 600) {
+                $(this).addClass("activeLi");
+              }
+          });
+
+          $(".approvalImg").each(function(){
+            var pos = $(this).offset().top;
+      
+            var winTop = $(window).scrollTop();
+              if (pos < winTop + 300) {
+                $(this).addClass("activePopOut");
+              }
+          });
+
+        });
+      })
+      </script>
+
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>    
+
+</body>
+
+</html>

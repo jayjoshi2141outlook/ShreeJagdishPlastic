@@ -1,0 +1,215 @@
+@media only screen and (max-width: 1024px) {
+	header .navbar-brand { padding: 15px 10px 0px 0px; }
+	.navbar-header .brandName { font-size: 20px; padding-top: 12px; }
+	.navbar-header .brandName span { margin-top: 4px; }
+	.heroBanner .jumbotron { top: 200px; }
+	.navbar-nav>li>a { padding: 25px 10px !important; }
+	.aboutUs { padding: 18px 0px; }
+	.aboutUs .aboutUsImage img { max-width: 105%; }
+	.products .productsListing .thumbs { width: 38%; margin: 0px 25px 30px; }
+	.products .productsListing .productImg img { max-width: 100%; width: 100%; }
+	.packaginPortfolio { padding: 100px 0px 120px; }
+	.packaginPortfolio .portfolioContainer .thumbnail { margin: 0px 10px; }
+	.innovations .innovationInfo { padding: 25px 0px 0px 20px; }
+	.innovations .innovationInfo h2 { font-size: 19px; }
+	footer { padding: 40px 0px 0px; }
+	footer .getInTouchInfo { padding: 0px; }
+	footer .map { width: 42%; }
+	footer .map iframe {
+		width: 370px;
+		margin-left: 15px;
+	}
+	footer .manufacturingSite	{ width: 26%; }
+}
+
+
+@media only screen and (max-width: 768px) {
+	header .navbar-brand { padding: 15px 0px 0px 0px; }
+	header .navbar-brand img { max-width: 85%; }
+	.container { padding: 0px !important; }
+	.navbar-header .brandName {
+		font-size: 16.5px;
+		padding-top: 18px;
+	}
+	.navbar-header .brandName span { font-size: 11px; }
+	.navbar-nav>li>a {
+		padding: 25px 4px !important;
+		font-size: 14px;
+		line-height: 40px;
+	}
+	.heroBanner	{ height: 500px; min-height: auto; margin-top: 0px;  }
+	.heroBanner .jumbotron { top: 200px; }
+	.heroBanner .jumbotron h1 { font-size: 50px; }
+	.heroBanner .jumbotron p { width: 80%; }
+	.heroBanner .bannerContainer .owl-carousel .owl-stage-outer { height: 500px; }
+	.heroBanner .owl-theme .owl-nav.disabled+.owl-dots { bottom: 5px; }
+	.aboutUs { padding: 25px 0px; text-align: center; }
+	.aboutUs h2 { padding: 0px; }
+	.aboutUs .aboutUsImage { float: none; margin-top: 40px; width: 100%; }
+	.aboutUs .aboutUsImage img { max-width: 75%; }
+	.aboutUs .aboutUsInfo { width: 100%; padding: 0px 0px 20px 10px; } 
+	.aboutUs .aboutUsInfo ul { padding-top: 15px; text-align: left; width: 95%; }
+	.aboutUs .aboutUsInfo ul li { font-weight: 400; margin: 15px 0px 0px; }
+	.products { padding: 30px 0px; }
+	.sectionTitle p { width: 85%; }
+	.products .productsListing .thumbs { width: 46%; margin: 10px 15px 15px; }
+	.products .productsListing .productImg { width: auto; height: 190px; line-height: 190px; }
+	.products .productsListing .productImg span { height: 185px; line-height: 185px; }
+	.packaginPortfolio { 
+		padding: 100px 0px; 
+		background-size: 150% 100%;
+	}
+	.packaginPortfolio .portfolioContainer { padding-top: 15px; }
+	.packaginPortfolio .portfolioContainer .thumbnail {
+		margin: 0px 15px 25px;
+		height: 190px;
+		width: 190px;
+		line-height: 190px;
+	}
+	.packaginPortfolio .overlay {
+		height: 200px;
+		width: 195px;
+		line-height: 220px;
+		top: 10px;
+	}
+	.innovationImg img { max-width: 80%; }
+	.innovations { text-align: center; padding: 25px 0px; }
+	.innovations .col-sm-6 { width: 100%; padding: 0px;}
+	.innovations .innovationInfo { padding: 25px 30px; }
+	.innovations .innovationInfo p { text-align: left; padding: 15px 0px 0px; }
+	.innovations .innovationInfo h2 {
+		font-size: 18px;
+	    margin: 0px 130px !important;
+	    line-height: 28px;
+	}
+	.approval .approvalContainer { padding: 10px; }
+	.approval .approvalContainer label { font-size: 20px; line-height: 32px; }
+	.approvalContainer .col-sm-10 { width: 80%; }
+	.approvalContainer .col-sm-2 { width: 20%; padding-top: 3px; }
+	footer .getInTouchInfo { width: 61%; padding-left: 10px; }
+	footer .getInTouchInfo .getInTouch {
+		float: left;
+    	width: 63%;
+	}
+	footer .followUs {
+        float: left;
+	    width: 37%;
+	}
+	footer .manufacturingSite { width: 39%; padding-left: 20px; }
+	footer .map { width: 100%; padding-top: 20px; }
+	footer .map iframe { margin-left: 0px; width: 100%; }
+}
+
+
+/*################ for mobile specific devices ################*/
+
+@media only screen and (max-width: 767px) {
+	header { text-align: center; }
+	header .navbar { height: auto; background-color: transparent; box-shadow: none; }
+	header .navbar .container { padding: 0px; }
+	header .navbar .navbar-header {
+		height: 76px;
+		position: absolute;
+		top: 0px;
+		right: 15px;
+		width: 100%;
+		text-align: center;
+		background: #30355d;
+	}
+	header .navbar-brand { 
+		width: 70px;
+		background: none; 
+		box-shadow: none; 
+		padding: 5px 0px 0px 5px;
+	}
+	header .navbar-brand img { max-width: 100%; }
+	header .navbar-nav {
+		margin: 75px -15px 0px; 
+		width: 250px; 
+		background: url(../images/footer_bg_icons.png) #30355d;
+		height: calc(100vh - 10vh);
+
+		-moz-box-shadow: 0px 0px 6px 0px rgba(18, 20, 35, 0.65);
+		-webkit-box-shadow: 0px 1px 6px 0px rgba(18, 20, 35, 0.65);
+		box-shadow: 0px 1px 6px 0px rgba(18, 20, 35, 0.65);
+	}
+	.navbar-toggle { 
+		margin-top: 12px !important; 
+		padding: 9px 7px !important;
+		border: none !important; 
+		background: #30355d !important;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #fff !important;
+		width: 20px;
+    	height: 2px;
+	}
+	.navbar-nav > li { border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+	.navbar-nav > li > a { 
+		text-align: left; 
+		padding: 6px 25px !important; 
+		font-size: 13.5px;
+	}
+	.heroBanner .jumbotron { top: 150px; left: 10.3%; }
+	.heroBanner .jumbotron h1 { 
+		font-size: 32px;
+		width: 200px;
+		margin: 0px auto !important;
+	}
+	.heroBanner .ex2 span:nth-child(8) { display: block !important; }
+	.owl-nav button:before { font-size: 25px !important; }
+	.heroBanner .jumbotron p { width: 90%; font-size: 14px; }
+	.aboutUs { padding: 0px; }
+	.aboutUs h2 { font-size: 25px; line-height: 30px; }
+	.aboutUs h2 strong { display: block; }
+	.aboutUs .aboutUsImage { margin-top: 30px; }
+	.aboutUs .aboutUsImage img { max-width: 100%; }	
+	.aboutUs .aboutUsInfo { padding: 0px; }
+	.aboutUs .aboutUsInfo ul li { font-size: 14px; padding-left: 17px; }
+	.sectionTitle p { width: 100%; }
+	.products { padding: 20px 10px; }
+	.products .productsListing .productImg span { height: 180px; }
+	.products .productsListing .thumbs { margin: 0px 0px 15px; width: 100%; }
+	.products .productsListing .productImg { height: 185px; line-height: 185px; }
+	.packaginPortfolio { 
+		padding: 100px 0px 90px; 
+		background-size: cover;
+	}
+	.sectionTitle h2 { font-size: 30px; }
+	.packaginPortfolio .sectionTitle h2::after { left: 60px; }
+	.packaginPortfolio .portfolioContainer { padding-top: 25px; }
+	.innovations { padding: 30px 5px; }
+	.innovations .container { padding: 0px; }
+	.innovations .col-sm-7 { padding: 0px; }
+	.innovations .innovationInfo { padding: 25px 5px; }
+	.innovations .innovationInfo h2 { 
+		font-size: 16px; 
+		line-height: 24px; 
+		margin: 0px !important;
+	}
+	.innovations .innovationInfo p { font-size: 14px; padding: 10px 0px 0px; }
+	.approval { text-align: center; padding: 40px 0px; }
+	.approval .approvalContainer { padding: 0px 0px 10px; margin: 0px 15px; }
+	.approval .approvalContainer label { 
+		font-size: 18px; 
+		line-height: 30px; 
+	}
+	.approvalImg img { max-width: 50%; width: 100%; }
+	.approvalContainer .col-sm-10 { width: 100%; }
+	.approvalContainer .col-sm-2 { width: 100%; padding-bottom: 10px; }	
+	footer { text-align: center; }
+	footer .getInTouchInfo { width: 100%; }
+	footer .getInTouchInfo .getInTouch { float: none; width: 100%; }
+	footer .getInTouchInfo .getInTouch ul { padding-left: 10px; }
+	footer .followUs { float: none; width: 100%; }
+	footer .followUs { padding: 18px 0px; }
+	footer h2 { margin-bottom: 15px !important; }
+	footer .manufacturingSite { width: 100%; }
+	footer ul { text-align: left; margin-bottom: 0px; }
+	footer h2 { font-size: 23px; }
+	footer .manufacturingSite { padding-top: 15px; }
+	footer .manufacturingSite h2 { margin-bottom: 10px !important; }
+	footer .manufacturingSite ul { display: block; }
+	footer .map { float: left; padding: 10px 15px; }	
+
+}	
