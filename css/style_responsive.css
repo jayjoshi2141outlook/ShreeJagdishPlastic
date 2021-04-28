@@ -160,8 +160,7 @@
 	.owl-nav button:before { font-size: 25px !important; }
 	.heroBanner .jumbotron p { width: 90%; font-size: 14px; }
 	.aboutUs { padding: 0px; }
-	.aboutUs h2 { font-size: 25px; line-height: 30px; }
-	.aboutUs h2 strong { display: block; }
+	.aboutUs h2 { font-size: 25px; line-height: 30px; color: #30355d !important; }
 	.aboutUs .aboutUsImage { margin-top: 30px; }
 	.aboutUs .aboutUsImage img { max-width: 100%; }	
 	.aboutUs .aboutUsInfo { padding: 0px; }
@@ -176,9 +175,10 @@
 		background-size: cover;
 	}
 	.sectionTitle h2 { font-size: 30px; }
+	.sectionTitle h2:after { left: 30px; }
 	.packaginPortfolio .sectionTitle h2::after { left: 60px; }
 	.packaginPortfolio .portfolioContainer { padding-top: 25px; }
-	.innovations { padding: 30px 5px; }
+	.innovations { padding: 0px 5px 30px; }
 	.innovations .container { padding: 0px; }
 	.innovations .col-sm-7 { padding: 0px; }
 	.innovations .innovationInfo { padding: 25px 5px; }
