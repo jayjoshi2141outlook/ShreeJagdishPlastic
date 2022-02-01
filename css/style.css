@@ -702,7 +702,7 @@ footer .getInTouch ul li.mobile:before {
     top: -8px;
     left: 2px;
 }
-footer .getInTouch ul li.whtsapp:before  { content: "\f0ac"; font-size: 17px; }
+footer .getInTouch ul li.whtsapp:before  { content: "\f232"; font-size: 17px; }
 footer .manufacturingSite p {
     line-height: 22px;
     position: relative;
