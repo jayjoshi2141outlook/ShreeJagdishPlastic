@@ -76,7 +76,7 @@
 	.innovations { text-align: center; padding: 25px 0px; }
 	.innovations .col-sm-6 { width: 100%; padding: 0px;}
 	.innovations .innovationInfo { padding: 25px 30px; }
-	.innovations .innovationInfo p { text-align: left; padding: 15px 0px 0px; }
+	.innovations .innovationInfo p { text-align: justify; padding: 15px 0px 0px; }
 	.innovations .innovationInfo h2 {
 		font-size: 18px;
 	    margin: 0px 130px !important;
@@ -178,7 +178,7 @@
 	.sectionTitle h2:after { left: 30px; }
 	.packaginPortfolio .sectionTitle h2::after { left: 60px; }
 	.packaginPortfolio .portfolioContainer { padding-top: 25px; }
-	.innovations { padding: 0px 5px 30px; }
+	.innovations { padding: 30px 5px; }
 	.innovations .container { padding: 0px; }
 	.innovations .col-sm-7 { padding: 0px; }
 	.innovations .innovationInfo { padding: 25px 5px; }
